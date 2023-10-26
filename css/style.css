@@ -52,7 +52,6 @@
 }
 
 .header {
-    background-color: aqua;
     width: 100%;
 }
 
@@ -286,8 +285,7 @@
 }
 
 abert img {
-    width: 330px;
-    height: 400px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -295,15 +293,53 @@ abert img {
 
 /*---------mensaje-----------*/
 .mensaje {
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    background-color: blue;
+}
+
+.titulo-mensajes {
+    color: rgb(157, 165, 42);
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.form-mensajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : black solid 2px;
+    border-radius: 15px;
+    width: 25%;
+    background-color: chartreuse;
+}
+
+.text-area {
+    display: flex;
+}
+
+.button-mensajes {
+    display: flex;
 }
 
 /*----------media query iluminacion----------*/
 @media screen and (max-width:850px) {
     .contenedor-grids {
         grid-template-columns: 90%;
-        background-color: red;
+        background-color: red; }
     }
+    @media screen and (max-width:500px) {
+        .producto-2 p {
+            font-size: 16px;
+        }
+    }
+
 
     /*----------muebles----------*/
     .modelos {
@@ -314,14 +350,9 @@ abert img {
         background-color: burlywood;
     }
 
-
-    @media screen and (max-width:500px) {
-        .producto-2 p {
-            font-size: 16px;
-        }
-    }
-
-    /*-----media mueble--------*/
+  /*-----media query mueble--------*/
+ 
+  
     @media screen and (max-width: 400px) {
         .muebles-diseño section div img {
             width: 334px;
@@ -330,9 +361,3 @@ abert img {
     }
 
     /*------------pseudo clase y pseudo elementos--------------*/
-
-.parrafo::selection{
-    background-color:pink;
-    color:aliceblue ;
-}
-}
