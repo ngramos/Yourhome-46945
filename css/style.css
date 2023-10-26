@@ -286,8 +286,7 @@
 }
 
 abert img {
-    width: 330px;
-    height: 400px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -302,8 +301,14 @@ abert img {
 @media screen and (max-width:850px) {
     .contenedor-grids {
         grid-template-columns: 90%;
-        background-color: red;
+        background-color: red; }
     }
+    @media screen and (max-width:500px) {
+        .producto-2 p {
+            font-size: 16px;
+        }
+    }
+
 
     /*----------muebles----------*/
     .modelos {
@@ -314,14 +319,9 @@ abert img {
         background-color: burlywood;
     }
 
-
-    @media screen and (max-width:500px) {
-        .producto-2 p {
-            font-size: 16px;
-        }
-    }
-
-    /*-----media mueble--------*/
+  /*-----media query mueble--------*/
+ 
+  
     @media screen and (max-width: 400px) {
         .muebles-diseño section div img {
             width: 334px;
@@ -330,8 +330,3 @@ abert img {
     }
 
     /*------------pseudo clase y pseudo elementos--------------*/
-
-.parrafo::selection{
-    background-color:pink;
-    color:aliceblue ;
-}
