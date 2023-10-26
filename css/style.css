@@ -55,11 +55,6 @@
     width: 100%;
 }
 
-.header {
-    position: fixed;
-}
-
-
 
 /*----------main--------------------*/
 
@@ -299,6 +294,8 @@ abert img {
     align-items: center;
     padding: 15px;
     background-color: blue;
+    border: crimson solid 1px;
+    width: 100%;
 }
 
 .titulo-mensajes {
@@ -307,6 +304,7 @@ abert img {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
+    margin: 20px;
 }
 
 .form-mensajes {
@@ -318,6 +316,7 @@ abert img {
     border-radius: 15px;
     width: 25%;
     background-color: chartreuse;
+    margin: 40px;
 }
 
 .text-area {
