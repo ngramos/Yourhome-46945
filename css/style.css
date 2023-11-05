@@ -109,26 +109,6 @@
     transform: scale(1);
 }
 
-/*---------aplicando flex a redes----------*/
-.map {
-    display: flex;
-    justify-content: center;
-}
-
-.redes {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.redes img {
-    width: 50px;
-    height: 50px;
-    margin: 30px;
-    border: solid 3px coral;
-}
-
-
 
 /*------------mueble----------------*/
 
@@ -329,6 +309,24 @@ abert img {
 .button-mensajes {
     display: flex;
 }
+
+/*---------aplicando flex a redes----------*/
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.redes img {
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+
 
 /*----------media query iluminacion----------*/
 @media screen and (max-width:850px) {
