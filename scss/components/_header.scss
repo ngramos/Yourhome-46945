@@ -1,0 +1,41 @@
+.header{ 
+    width: 100%;
+    .navbar{
+        .container-fluid{  
+            background-color: rgb(158, 155, 155);
+            }
+            h1{
+                color: blueviolet;
+                font: size 70px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: 200;
+                padding: 10px;
+            }
+            
+            .collapse{
+                .navbar-nav{
+                    list-style: none;
+                }
+                .nav-item{
+                    display: inline;
+                    margin: 2px;
+                    padding: 3px;
+                    .nav-link{
+                        text-decoration: none;
+                        background-color: rgb(175, 174, 175);
+                        display: flex;
+                        justify-content: center;
+                        border: solid rgb(15, 11, 12);
+                        border-radius: 10px;
+                    }
+                }
+                .d-flex{
+                    .form-control{
+                        background-color: rgb(219, 224, 213);
+                        
+                    }
+                }
+            }
+        }
+    }
