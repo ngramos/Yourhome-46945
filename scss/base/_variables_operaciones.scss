@@ -1,0 +1,40 @@
+$color-primario:rgb(158, 155, 155);
+$color-secundario: blueviolet;
+$color-terciario:rgb(175, 174, 175);
+$color-cuarto:rgb(15, 11, 12);
+$color_quinto: rgb(219, 224, 213);
+$color-sexto:rgb(218, 192, 163);
+$color-septimo:rgb(157, 165, 42);
+$color-octavo: red;
+$color-noveno:aqua;
+$color-decimo:rgb(165, 56, 42);
+$color-undecimo: darkblue;
+$color-duodecimo:rgb(187, 184, 180);
+$color-decimotercero:rgb(234, 219, 200);
+
+/*-----------lista aplicada hover colocados 
+en header y iluminacion boton compra---------*/
+
+$colores:cornflowerblue,yellow;
+
+/*------------aplicado en el header-linea 9-----------*/
+$size:
+31px;
+
+/*--------extends .productos3---------*/
+
+%flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*mixins-----footer line 3*/
+
+@mixin flex($flex,$flex-end,$center){
+display: $flex;
+justify-content: $flex-end;
+align-items: $center;
+
+}

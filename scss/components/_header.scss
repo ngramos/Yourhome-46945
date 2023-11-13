@@ -2,11 +2,11 @@
     width: 100%;
     .navbar{
         .container-fluid{  
-            background-color: rgb(158, 155, 155);
+            background-color: $color-primario;
             }
             h1{
-                color: blueviolet;
-                font: size 70px;
+                color: $color-secundario;
+                font-size: nth($size,1);
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-style: italic;
                 font-weight: 200;
@@ -23,16 +23,20 @@
                     padding: 3px;
                     .nav-link{
                         text-decoration: none;
-                        background-color: rgb(175, 174, 175);
+                        background-color:$color-terciario;
                         display: flex;
                         justify-content: center;
-                        border: solid rgb(15, 11, 12);
+                        border: solid $color-cuarto;
                         border-radius: 10px;
+                        &:hover{
+                            color:nth($colores,1);
+                        }
+                        
                     }
                 }
                 .d-flex{
                     .form-control{
-                        background-color: rgb(219, 224, 213);
+                        background-color: $color_quinto;
                         
                     }
                 }

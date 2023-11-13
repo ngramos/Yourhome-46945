@@ -1,9 +1,7 @@
 /*-----------footer index--------*/
     .redes{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background-color: rgb(234, 219, 200);
+    @include flex (flex,flex-end,center);
+    background-color: $color-decimotercero;
         a{
             img{ 
                 width: 50px;

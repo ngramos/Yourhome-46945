@@ -1,53 +1,66 @@
 /*-------------index----------*/
 .centro{  
-    background-color: rgb(218, 192, 163);
-.titulo{
-    color: rgb(157, 165, 42);
+    background-color: $color-sexto;
+    .titulo{
+    color: $color-septimo;
     text-align: center;
     font-size: 38px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    padding: 80px;
-}
-div{
+    padding: 80px;    
+    }
+    .animate__heartBeat{
+    animation-duration: 30s;
+    }
+    div{
     .frente{
         width: 100%;
         height: 550px;
     }
-}
-
-.productos{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
-    padding: 11px;
-    .product{
+    }
+        .productos{ 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px;
+        padding: 11px;
+        
+        }
+        .product{
         height: 350px;
         width: 300px;
-        border: solid 1px red;
-        margin: 10px;
+        border: solid 1px $color-octavo;
+        margin: 31px;
         padding: 5px;
-        color: black;
+        color: $color-cuarto;
         text-align: center;
-        background-color: black;
+        background-color: $color-cuarto;
+        transition: 1s;
+        &:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+        }
         h3{
             font-size: 18px;
-            background-color: aqua;
+            background-color: $color-noveno;
         }
         .productosportada{
             width: 250px;
             height: 250px;
-            .compra{
-            text-decoration: none;
+            margin: 15px;
+        }
+        .boton{
+            text-decoration: none !important;
+            border: red solid 2px;
             color: white;
-            background-color: black;
+            background-color: $color-cuarto;
             padding: 5px;
             }
-            }
         }
-    }
-    section{
+        section{
         .map{
             display: flex;
             justify-content: center;
@@ -56,20 +69,19 @@ div{
             
             .subtitulo{
                 font-size: 30px;
-                color: crimson;
+                color: $color-octavo;
                 margin: 10px;
             }
             }
         }
-    
     }
 
 /*------------mueble----------------*/
 main{
-    background-color: rgb(218, 192, 163);
+    background-color: $color-sexto;
     div{
         .modernotitulo{
-            color: rgb(157, 165, 42);
+            color: $color-septimo;
             text-align: center;
             font-size: 38px;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -88,22 +100,22 @@ main{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: black;
+        background-color: $color-cuarto;
         width: 100%;
         
         
         .muebletele{
                 font-size: 30px;
-                color: crimson;
+                color:$color-octavo;
                 margin: 5px;
         }
         .parrafo{
-            color: darkgoldenrod;
+            color: $color-decimo;
             padding: 20px;
         }
         div{
             img{
-                border: solid red;
+                border: solid $color-octavo;
                 border-radius: 150px;
                 width: 400px;
                 height: 300px;
@@ -115,10 +127,10 @@ main{
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            background-color: darkblue;
+            background-color: $color-undecimo;
             .subtitulo{
                 font-size: 30px;
-                color: crimson;
+                color: $color-octavo;
                 margin: 5px;
             }
             }
@@ -128,7 +140,7 @@ main{
             }
             .armario{
                 img{  
-                    border: solid red;
+                    border: solid $color-octavo;
                     border-radius: 150px;
                     width: 400px;
                     height: 300px;
@@ -139,8 +151,8 @@ main{
 .producto-1{
     padding: 120px;
     text-align: center;
-    color: rgb(157, 165, 42);
-    background-color: rgb(218, 192, 163);
+    color: $color-septimo;
+    background-color: $color-sexto;
     .titulo-iluminacion{
         font-size: 44px;
     }
@@ -154,27 +166,33 @@ main{
             }
         }
         .parrafo{
-            color: rgb(165, 56, 42);
+            color: $color-decimo;
             font-size: 25px;
             margin: 20px;
             font-style: italic;
         }
     }
     .productos3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    @extend %flex;
         .product{
             height: 365px;
             width: 300px;
-            border: solid 1px red;
+            border: solid 1px $color-octavo;
             margin: 10px;
             padding: 5px;
-            color: black;
+            color: $color-cuarto;
             text-align: center;
+            background-color: $color-noveno;
+            transition: 1s;
+            &:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 12px 20px 0px rgba(0,0,0,0.75);
+            }
             .subtitulo{
                 font-size: 18px;
-                background-color: aqua;
+                background-color: $color-noveno;
             }
             img{
                 height: 200px;
@@ -187,19 +205,23 @@ main{
             a{
                 text-decoration: none;
                 color: white;
-                background-color: black;
+                background-color: $color-cuarto;
                 padding: 5px;
+                &:hover{
+                    color: yellow;
+                }
+                
             }
             }
         
     }
     .grids{
         .subtitulo{
-            color: red;
+        color: $color-octavo;
         }
     }
     .contenedor-grids{
-        border: solid 2px black;
+        border: solid 2px $color-cuarto;
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: center;
@@ -209,9 +231,85 @@ main{
             img{
                 width:100%;
                 height: 400px;
-                border: solid 4px violet;
+                border: solid 4px $color-undecimo;
             }
         }
     }
+/*-------------aberturas-----------*/
+main{
+    background-color:$color-sexto ;
+    .abert{
+.titulo{
+    color: $color-septimo;
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 80px;
+}
+div{
+    img{
+        border: solid $color-octavo;
+        border-radius: 150px;
+        width: 100%;
+        height: 550px;
+    }
+    }
+}
+.parrafo{
+    color: $color-decimo;
+    padding: 20px;
+}
+.abert{
+    background-color: $color-cuarto;
+    text-align: center;
+    
+    .subtitulo{
+        font-size: 30px;
+        color: $color-octavo;
+        margin: 5px;
+    }
+    img{
+        border: solid $color-octavo;
+        border-radius: 150px;
+        width: 400px;
+        height: 300px;
+    }
+    }
+    .parrafo{
+        color: $color-decimo;
+        padding: 20px;
+    }
+    .abert{
+        .subtitulo{
+            font-size: 30px;
+            color: $color-octavo;
+            margin: 5px;
+        }
+        .puerta{
+            img{
+                border: solid $color-octavo;
+                border-radius: 150px;
+                width: 400px;
+                height: 300px;
+            }
+            }
+        }
+        .parrafo{
+            color: $color-decimo;
+            padding: 20px;
+        }
+}
+/*---------------mensajes------------*/
 
+.header{
+    background-color:$color-sexto;
+    
+}
+.container{
+    padding:95px;
+.row{
+    background-color: $color-duodecimo;
 
+}
+}

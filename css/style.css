@@ -235,10 +235,6 @@
 /*------abertura------------*/
 
 
-.abert {
-    background-color: rgb(218, 192, 163);
-}
-
 .abert img {
     width: 100%;
     display: flex;
@@ -306,15 +302,6 @@
         }
     }
 
-
-    /*----------muebles----------*/
-    .modelos {
-        flex-wrap: wrap;
-    }
-
-    .muebles-diseño {
-        background-color: burlywood;
-    }
 
     /*-----media query mueble--------*/
 

@@ -1,4 +1,15 @@
+@charset "UTF-8";
+/*-----------lista aplicada hover colocados 
+en header y iluminacion boton compra---------*/
+/*------------aplicado en el header-linea 9-----------*/
+/*--------extends .productos3---------*/
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,400;1,700&display=swap");
+.productos3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/*mixins-----footer line 3*/
 /*----------reset---------*/
 * {
   margin: 0;
@@ -14,7 +25,7 @@ body {
     background-color: #9e9b9b; }
   .header .navbar h1 {
     color: blueviolet;
-    font: size 70px;
+    font-size: 31px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 200;
@@ -32,6 +43,8 @@ body {
       justify-content: center;
       border: solid #0f0b0c;
       border-radius: 10px; }
+      .header .navbar .collapse .nav-item .nav-link:hover {
+        color: cornflowerblue; }
   .header .navbar .collapse .d-flex .form-control {
     background-color: #dbe0d5; }
 
@@ -45,35 +58,46 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     padding: 80px; }
+  .centro .animate__heartBeat {
+    animation-duration: 30s; }
   .centro div .frente {
     width: 100%;
     height: 550px; }
   .centro .productos {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 10px;
     padding: 11px; }
-    .centro .productos .product {
-      height: 350px;
-      width: 300px;
-      border: solid 1px red;
-      margin: 10px;
-      padding: 5px;
-      color: black;
-      text-align: center;
-      background-color: black; }
-      .centro .productos .product h3 {
-        font-size: 18px;
-        background-color: aqua; }
-      .centro .productos .product .productosportada {
-        width: 250px;
-        height: 250px; }
-        .centro .productos .product .productosportada .compra {
-          text-decoration: none;
-          color: white;
-          background-color: black;
-          padding: 5px; }
+  .centro .product {
+    height: 350px;
+    width: 300px;
+    border: solid 1px red;
+    margin: 31px;
+    padding: 5px;
+    color: #0f0b0c;
+    text-align: center;
+    background-color: #0f0b0c;
+    transition: 1s; }
+    .centro .product:hover {
+      transform: scale(1.1);
+      box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75); }
+    .centro .product h3 {
+      font-size: 18px;
+      background-color: aqua; }
+    .centro .product .productosportada {
+      width: 250px;
+      height: 250px;
+      margin: 15px; }
+    .centro .product .boton {
+      text-decoration: none !important;
+      border: red solid 2px;
+      color: white;
+      background-color: #0f0b0c;
+      padding: 5px; }
   .centro section .map {
     display: flex;
     justify-content: center;
@@ -81,7 +105,7 @@ body {
     align-items: center; }
     .centro section .map .subtitulo {
       font-size: 30px;
-      color: crimson;
+      color: red;
       margin: 10px; }
 
 /*------------mueble----------------*/
@@ -104,14 +128,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
+    background-color: #0f0b0c;
     width: 100%; }
     main .modelos .muebletele {
       font-size: 30px;
-      color: crimson;
+      color: red;
       margin: 5px; }
     main .modelos .parrafo {
-      color: darkgoldenrod;
+      color: #a5382a;
       padding: 20px; }
     main .modelos div img {
       border: solid red;
@@ -126,7 +150,7 @@ main {
     background-color: darkblue; }
     main .modelos2 .subtitulo {
       font-size: 30px;
-      color: crimson;
+      color: red;
       margin: 5px; }
   main .parrafo {
     color: darkgoldenrod;
@@ -154,38 +178,43 @@ main {
     margin: 20px;
     font-style: italic; }
 
-.productos3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  .productos3 .product {
-    height: 365px;
-    width: 300px;
-    border: solid 1px red;
-    margin: 10px;
-    padding: 5px;
-    color: black;
-    text-align: center; }
-    .productos3 .product .subtitulo {
-      font-size: 18px;
-      background-color: aqua; }
-    .productos3 .product img {
-      height: 200px;
-      width: 250px; }
-    .productos3 .product p {
-      margin: 5px;
-      font-size: 18px; }
-    .productos3 .product a {
-      text-decoration: none;
-      color: white;
-      background-color: black;
-      padding: 5px; }
+.productos3 .product {
+  height: 365px;
+  width: 300px;
+  border: solid 1px red;
+  margin: 10px;
+  padding: 5px;
+  color: #0f0b0c;
+  text-align: center;
+  background-color: aqua;
+  transition: 1s; }
+  .productos3 .product:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 20px 0px rgba(0, 0, 0, 0.75); }
+  .productos3 .product .subtitulo {
+    font-size: 18px;
+    background-color: aqua; }
+  .productos3 .product img {
+    height: 200px;
+    width: 250px; }
+  .productos3 .product p {
+    margin: 5px;
+    font-size: 18px; }
+  .productos3 .product a {
+    text-decoration: none;
+    color: white;
+    background-color: #0f0b0c;
+    padding: 5px; }
+    .productos3 .product a:hover {
+      color: yellow; }
 
 .grids .subtitulo {
   color: red; }
 
 .contenedor-grids {
-  border: solid 2px black;
+  border: solid 2px #0f0b0c;
   display: grid;
   grid-template-columns: 45% 45%;
   justify-content: center;
@@ -194,7 +223,62 @@ main {
   .contenedor-grids .img img {
     width: 100%;
     height: 400px;
-    border: solid 4px violet; }
+    border: solid 4px darkblue; }
+
+/*-------------aberturas-----------*/
+main {
+  background-color: #dac0a3; }
+  main .abert .titulo {
+    color: #9da52a;
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 80px; }
+  main .abert div img {
+    border: solid red;
+    border-radius: 150px;
+    width: 100%;
+    height: 550px; }
+  main .parrafo {
+    color: #a5382a;
+    padding: 20px; }
+  main .abert {
+    background-color: #0f0b0c;
+    text-align: center; }
+    main .abert .subtitulo {
+      font-size: 30px;
+      color: red;
+      margin: 5px; }
+    main .abert img {
+      border: solid red;
+      border-radius: 150px;
+      width: 400px;
+      height: 300px; }
+  main .parrafo {
+    color: #a5382a;
+    padding: 20px; }
+  main .abert .subtitulo {
+    font-size: 30px;
+    color: red;
+    margin: 5px; }
+  main .abert .puerta img {
+    border: solid red;
+    border-radius: 150px;
+    width: 400px;
+    height: 300px; }
+  main .parrafo {
+    color: #a5382a;
+    padding: 20px; }
+
+/*---------------mensajes------------*/
+.header {
+  background-color: #dac0a3; }
+
+.container {
+  padding: 95px; }
+  .container .row {
+    background-color: #bbb8b4; }
 
 /*-----------footer index--------*/
 .redes {
@@ -206,3 +290,38 @@ main {
     width: 50px;
     height: 50px;
     margin: 30px; }
+
+/*------------index------------------*/
+@media screen and (max-width: 412px) {
+  .centro .titulo {
+    font-size: 30px;
+    color: red; } }
+
+/*----------mediaquery iluminacion----------*/
+@media screen and (max-width: 450px) {
+  .producto-1 {
+    margin: 0;
+    padding: 0; }
+    .producto-1 .titulo-iluminacion {
+      font-size: 25px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic; } }
+
+@media screen and (max-width: 500px) {
+  .producto-2 .parrafo {
+    font-size: 21px; } }
+
+@media screen and (max-width: 850px) {
+  .contenedor-grids {
+    grid-template-columns: 90%;
+    background-color: red; } }
+
+/*-----mediaquery mueble--------*/
+@media screen and (max-width: 400px) {
+  .muebles-diseño section div img {
+    width: 334px; } }
+
+@media screen and (max-width: 864px) {
+  main .modelos {
+    flex-wrap: wrap; } }
