@@ -1,0 +1,65 @@
+/*-------------aberturas-----------*/
+main{
+    background-color:$color-sexto ;
+    .abert{
+.titulo{
+    color: $color-septimo;
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 80px;
+}
+div{
+    img{
+        border: solid $color-octavo;
+        border-radius: 150px;
+        width: 100%;
+        height: 550px;
+    }
+    }
+}
+.parrafo{
+    color: $color-decimo;
+    padding: 20px;
+}
+.abert{
+    background-color: $color-sexto;
+    text-align: center;
+    
+    .subtitulo{
+        font-size: 30px;
+        color: $color-octavo;
+        margin: 5px;
+    }
+    img{
+        border: solid $color-octavo;
+        border-radius: 150px;
+        width: 400px;
+        height: 300px;
+    }
+    }
+    .parrafo{
+        color: $color-decimo;
+        padding: 20px;
+    }
+    .abert{
+        .subtitulo{
+            font-size: 30px;
+            color: $color-octavo;
+            margin: 5px;
+        }
+        .puerta{
+            img{
+                border: solid $color-octavo;
+                border-radius: 150px;
+                width: 400px;
+                height: 300px;
+            }
+            }
+        }
+        .parrafo{
+            color: $color-decimo;
+            padding: 20px;
+        }
+}
