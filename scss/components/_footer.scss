@@ -2,6 +2,7 @@
     .redes{
     @include flex (flex,flex-end,center);
     background-color: $color-decimotercero;
+   
         a{
             img{ 
                 width: 50px;
@@ -9,4 +10,9 @@
                 margin: 30px;
             }
         }
+    }
+    .footer-msj{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
     }

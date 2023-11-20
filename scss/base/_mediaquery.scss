@@ -1,54 +1,65 @@
-
-    /*------------index------------------*/
-    @media screen and (max-width:412px){
-.centro{
-    .titulo{
-        font-size: 30px;
-        color: red;
+/*------------index------------------*/
+@media screen and (max-width: 412px) {
+    .centro {
+        .titulo {
+            font-size: 30px;
+            color: red;
+        }
     }
 }
-    }
-        
-    
-    /*----------mediaquery iluminacion----------*/
-    @media screen and (max-width:450px) {
-        .producto-1 {
-            margin: 0;
-            padding: 0;
+
+/*----------mediaquery iluminacion----------*/
+@media screen and (max-width: 450px) {
+    .producto-1 {
+        margin: 0;
+        padding: 0;
         .titulo-iluminacion {
             font-size: 25px;
             text-align: center;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: Georgia, "Times New Roman", Times, serif;
             font-style: italic;
         }
-        }
+    }
 }
-    @media screen and (max-width:500px) {
-        .producto-2{ 
+@media screen and (max-width: 500px) {
+    .producto-2 {
         .parrafo {
             font-size: 21px;
         }
     }
+}
+@media screen and (max-width: 850px) {
+    .contenedor-grids {
+        grid-template-columns: 90%;
     }
-        @media screen and (max-width:850px) {
-        .contenedor-grids {
-            grid-template-columns: 90%;
-            background-color: red;
-        }
-    }
+}
 /*-----mediaquery mueble--------*/
 
-
 @media screen and (max-width: 400px) {
+    main .modelos div img {
+        width: 340px;
+    }
     .muebles-diseño section div img {
         width: 334px;
     }
-
-}
-@media screen and (max-width: 864px) {
-main{
-    .modelos{
-        flex-wrap: wrap;
+    main .armario img {
+        width: 340px;
     }
-}  
+}
+
+@media screen and (max-width: 864px) {
+    main {
+        .modelos {
+            flex-wrap: wrap;
+        }
+    }
+}
+/*-----------aberturas-------------*/
+@media screen and (max-width: 408px){
+main .abert img{
+    width: 345px;
+}
+main .abert .puerta img{
+    width: 345px;
+}
 }
