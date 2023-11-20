@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/estilos.css">
   <link rel="shortcut icon" href="../img/sillon.png" type="image/x-icon">
-  <title>Your Home  | aberturas y puertas ventanas y muebles rack televisor sillones muebles interiores y iluminacion led</title>
+  <title>Mensajes | Contactar, Teléfonos, Horarios, Email, Oficina</title>
+  <meta name="keywords" content="Contactar, Teléfonos, Horarios, Email, Oficina">
+  <meta name="description"
+    content="Indícanos a qué teléfono quieres que te llamemos y un asesor te llamará gratuitamente lo antes posible o deja tu msj y nos comunicaremos">
 </head>
 <body>
   <header class="header">
@@ -33,7 +36,7 @@
               <a class="nav-link active" href="../pages/muebles.html">Muebles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="../pages/aberturas.html">aberturas</a>
+              <a class="nav-link active" href="../pages/aberturas.html">Aberturas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="mensajes.html">Mensajes</a>
@@ -49,40 +52,38 @@
         </div>
       </div>
     </nav>
-    <main role="main" class="container">
-      <div class="row">
-          <div class="col-12">
-              <h2 class="titulo">Gracias por contactarme</h2>
-              <a href="//parzibyte.me/blog" target="_blank"></a>
-          </div>
-          <div class="col-12">
-              <form method="POST" action="contacto.php">
-                  <div class="form-group">
-                      <label for="nombre">Nombre</label>
-                      <input name="nombre" required type="text" id="nombre"
-                          class="form-control" placeholder="Tu nombre">
-                  </div>
-                  <div class="form-group">
-                      <label for="correo">Correo electrónico</label>
-                      <input name="correo" required type="email" id="correo"
-                          class="form-control" placeholder="Tu correo electrónico">
-                  </div>
-                  <div class="form-group">
-                      <label for="mensaje">Mensaje</label>
-                      <textarea required placeholder="Escribe tu mensaje"
-                          class="form-control" name="mensaje" id="mensaje"
-                          cols="30" rows="5"></textarea>
-                  </div>
-                  <div class="form-group">
-                      <button class="btn-success btn" type="submit">
-                          Enviar
-                      </button>
-                  </div>
-              </form>
-          </div>
-      </div>
-  </main>
   </header>
+  <main role="main" class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="titulo">Gracias por contactarme</h2>
+        <a href="//parzibyte.me/blog" target="_blank"></a>
+      </div>
+      <div class="col-12">
+        <form method="POST" action="contacto.php">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input name="nombre" required type="text" id="nombre" class="form-control" placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo electrónico</label>
+            <input name="correo" required type="email" id="correo" class="form-control"
+              placeholder="Tu correo electrónico">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea required placeholder="Escribe tu mensaje" class="form-control" name="mensaje" id="mensaje"
+              cols="30" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn-success btn" type="submit">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
   <footer id="pie4" class="redes">
     <div>
       <a href="https://es-es.facebook.com/" target="blanck"><img src="../img/facebook-2.png" alt="facebook" /></a>

@@ -22,7 +22,7 @@ body {
 .header {
   width: 100%; }
   .header .navbar .container-fluid {
-    background-color: #9e9b9b; }
+    background-color: #f0ead2; }
   .header .navbar h1 {
     color: blueviolet;
     font-size: 31px;
@@ -38,7 +38,7 @@ body {
     padding: 3px; }
     .header .navbar .collapse .nav-item .nav-link {
       text-decoration: none;
-      background-color: #afaeaf;
+      background-color: #dde5b6;
       display: flex;
       justify-content: center;
       border: solid #0f0b0c;
@@ -128,7 +128,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #0f0b0c;
+    background-color: #dac0a3;
     width: 100%; }
     main .modelos .muebletele {
       font-size: 30px;
@@ -147,7 +147,7 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: darkblue; }
+    background-color: #dac0a3; }
     main .modelos2 .subtitulo {
       font-size: 30px;
       color: red;
@@ -214,7 +214,6 @@ main {
   color: red; }
 
 .contenedor-grids {
-  border: solid 2px #0f0b0c;
   display: grid;
   grid-template-columns: 45% 45%;
   justify-content: center;
@@ -244,7 +243,7 @@ main {
     color: #a5382a;
     padding: 20px; }
   main .abert {
-    background-color: #0f0b0c;
+    background-color: #dac0a3;
     text-align: center; }
     main .abert .subtitulo {
       font-size: 30px;
@@ -272,20 +271,21 @@ main {
     padding: 20px; }
 
 /*---------------mensajes------------*/
-.header {
+body {
   background-color: #dac0a3; }
-
-.container {
-  padding: 95px; }
-  .container .row {
-    background-color: #bbb8b4; }
+  body .header {
+    background-color: #dac0a3; }
+  body .container {
+    padding: 95px; }
+    body .container .row {
+      background-color: #bbb8b4; }
 
 /*-----------footer index--------*/
 .redes {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #eadbc8; }
+  background-color: #a98467; }
   .redes a img {
     width: 50px;
     height: 50px;

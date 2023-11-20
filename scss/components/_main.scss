@@ -100,7 +100,7 @@ main{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: $color-cuarto;
+        background-color: $color-sexto;
         width: 100%;
         
         
@@ -127,7 +127,7 @@ main{
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            background-color: $color-undecimo;
+            background-color: $color-sexto;
             .subtitulo{
                 font-size: 30px;
                 color: $color-octavo;
@@ -221,7 +221,6 @@ main{
         }
     }
     .contenedor-grids{
-        border: solid 2px $color-cuarto;
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: center;
@@ -261,7 +260,7 @@ div{
     padding: 20px;
 }
 .abert{
-    background-color: $color-cuarto;
+    background-color: $color-sexto;
     text-align: center;
     
     .subtitulo{
@@ -301,7 +300,8 @@ div{
         }
 }
 /*---------------mensajes------------*/
-
+body{
+    background-color: $color-sexto;
 .header{
     background-color:$color-sexto;
     
@@ -311,5 +311,6 @@ div{
 .row{
     background-color: $color-duodecimo;
 
+}
 }
 }
