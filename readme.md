@@ -4,9 +4,19 @@
 <h3 align="left">Proyecto final desarrollo web - Coderhouse</h3>
 <p align="left">Web de productos del hogar.
 </p>
-<h3 align="left"Captura de la pagina></h3>
+<h3 align="left">Captura de la pagina</h3>
  <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/18dc6156-a89b-49a4-98a2-48a01eafe2b1"
-          alt="captura de pantalla" />
+          alt="captura de pantalla index" />
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/0a6b9790-3e3a-4f90-9d0e-643f2ba9ced2"
+          alt="captura de pantalla iluminacion" />
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/abe35ea2-efca-444a-9f8c-1b275ae14305"
+          alt="captura de pantalla muebles" />
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/9bd7335d-2a49-4720-90f1-228209ce0384"
+          alt="captura de pantalla muebles responsive" />
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/143ac131-5015-48dc-9270-4bcd9026503a"
+          alt="captura de pantalla index responsive" />
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/15931c96-d8b8-448e-920e-9eb5a8f65ecd"
+          alt="captura de pantalla mensajes responsive" />
 
 
 
