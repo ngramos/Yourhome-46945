@@ -29,7 +29,7 @@ main{
         
         .muebletele{
                 font-size: 30px;
-                color:$color-octavo;
+                color:$color-cuarto;
                 margin: 5px;
         }
         .parrafo{
@@ -38,7 +38,6 @@ main{
         }
         div{
             img{
-                border: solid $color-octavo;
                 border-radius: 150px;
                 width: 400px;
                 height: 300px;
@@ -54,7 +53,7 @@ main{
             padding: 35px;
             .subtitulo{
                 font-size: 30px;
-                color: $color-octavo;
+                color: $color-cuarto;
                 margin: 5px;
             }
             }
@@ -64,7 +63,6 @@ main{
             }
             .armario{
                 img{  
-                    border: solid $color-octavo;
                     border-radius: 150px;
                     width: 400px;
                     height: 300px;

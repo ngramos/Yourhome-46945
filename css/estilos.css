@@ -105,7 +105,7 @@ body {
     align-items: center; }
     .centro section .map .subtitulo {
       font-size: 30px;
-      color: red;
+      color: #0f0b0c;
       margin: 10px; }
 
 /*------------mueble----------------*/
@@ -133,13 +133,12 @@ main {
     width: 100%; }
     main .modelos .muebletele {
       font-size: 30px;
-      color: red;
+      color: #0f0b0c;
       margin: 5px; }
     main .modelos .parrafo {
       color: #a5382a;
       padding: 20px; }
     main .modelos div img {
-      border: solid red;
       border-radius: 150px;
       width: 400px;
       height: 300px; }
@@ -152,13 +151,12 @@ main {
     padding: 35px; }
     main .modelos2 .subtitulo {
       font-size: 30px;
-      color: red;
+      color: #0f0b0c;
       margin: 5px; }
   main .parrafo {
     color: darkgoldenrod;
     padding: 20px; }
   main .armario img {
-    border: solid red;
     border-radius: 150px;
     width: 400px;
     height: 300px; }
@@ -213,7 +211,7 @@ main {
       color: yellow; }
 
 .grids .subtitulo {
-  color: red; }
+  color: #0f0b0c; }
 
 .contenedor-grids {
   display: grid;
@@ -236,7 +234,6 @@ main {
     font-style: italic;
     padding: 80px; }
   main .abert div img {
-    border: solid red;
     border-radius: 150px;
     width: 100%;
     height: 550px; }
@@ -248,10 +245,9 @@ main {
     text-align: center; }
     main .abert .subtitulo {
       font-size: 30px;
-      color: red;
+      color: #0f0b0c;
       margin: 5px; }
     main .abert img {
-      border: solid red;
       border-radius: 150px;
       width: 400px;
       height: 300px; }
@@ -260,10 +256,9 @@ main {
     padding: 20px; }
   main .abert .subtitulo {
     font-size: 30px;
-    color: red;
+    color: #0f0b0c;
     margin: 5px; }
   main .abert .puerta img {
-    border: solid red;
     border-radius: 150px;
     width: 400px;
     height: 300px; }

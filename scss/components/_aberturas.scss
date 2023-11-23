@@ -12,7 +12,6 @@ main{
 }
 div{
     img{
-        border: solid $color-octavo;
         border-radius: 150px;
         width: 100%;
         height: 550px;
@@ -29,11 +28,10 @@ div{
     
     .subtitulo{
         font-size: 30px;
-        color: $color-octavo;
+        color: $color-cuarto;
         margin: 5px;
     }
     img{
-        border: solid $color-octavo;
         border-radius: 150px;
         width: 400px;
         height: 300px;
@@ -46,12 +44,11 @@ div{
     .abert{
         .subtitulo{
             font-size: 30px;
-            color: $color-octavo;
+            color: $color-cuarto;
             margin: 5px;
         }
         .puerta{
             img{
-                border: solid $color-octavo;
                 border-radius: 150px;
                 width: 400px;
                 height: 300px;
