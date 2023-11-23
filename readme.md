@@ -5,7 +5,9 @@
 <p align="left">Web de productos del hogar.
 </p>
 <h3 align="left"Captura de la pagina></h3>
-![image](https://github.com/ngramos/Yourhome-46945/assets/146673945/18dc6156-a89b-49a4-98a2-48a01eafe2b1)
+ <img src="https://github.com/ngramos/Yourhome-46945/assets/146673945/18dc6156-a89b-49a4-98a2-48a01eafe2b1"
+          alt="captura de pantalla" />
+
 
 
 <h3 align="left">Tecnologias implementadas</h3>
